@@ -1,0 +1,291 @@
+/*HEADER*/
+.logo {
+	width: 60%;
+	margin: 10px 80px;
+}
+header nav  {
+	float: left;
+	padding: 50px 20px;
+	list-style: none;
+	margin-left:90px;
+	overflow: hidden;
+}
+header nav a {
+	height: 20px;
+	padding: 4px 30px;
+	border-right: 1px solid #585858;
+	display: inline-block;
+	text-decoration: none;
+	color: #585858;
+}
+header nav a:hover{
+	color: #000000;
+}
+header{
+	font-size: 18px;
+	font-style: bold;
+	color:#F2F2F2;
+}
+
+/*SECTION*/
+/*fondo*/
+
+#fondo{
+	background-image: url(../img/semilla.jpg);
+	background-size: cover;
+	height: 550px;
+}
+.gray{
+	background-color: #F2F2F2;
+	height: 80px;
+	padding: 50px 250px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+/*Mision*/
+.Mision{
+	text-align: center;
+	margin: 40px 0px;
+}
+.Mision .container img{
+	width: 25%;
+}
+.Mision h2{
+	color: black;
+	font-size: 22px;
+	margin: 15px 0px;
+}
+.Mision p{
+	color: black;
+	font-size: 17px;
+	margin: 15px 0px;
+	padding: 0px 20px;
+}
+/*Metodología*/
+.metodo{
+	background-image: url(../img/metodo.jpg);
+	height: 400px;
+}
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	height: 400px;
+}
+.Metodología{
+	color: white;
+	text-align: center;
+}
+.icono1{
+	width: 10%;
+	padding: 55px 0px;
+}
+.Metodología h2{
+	font-size: 24px;
+}
+.Metodología p{
+	font-size: 17px;
+	margin: 20px 0px;
+	padding: 0px 70px;
+}
+
+/*Servicios*/
+.Servicios{
+	color: black;
+	text-align: center;
+}
+.Servicios h2{
+	font-size: 28px;
+	margin-top: 40px;
+}
+.Servicios p{
+	font-size: 17px;
+	margin: 15px 20px;
+	padding: 0px 70px;
+}
+/*Serviciosiconos*/
+.Serviciosiconos{
+	text-align: center;
+	margin: 50px 0px;
+}
+.Serviciosiconos .container img{
+	width: 40%;
+}
+.Serviciosiconos h2{
+	color: #628042;
+	font-size: 22px;
+	margin: 15px 0px;
+	padding: 0px 50px;
+}
+.Serviciosiconos p{
+	color: black;
+	font-size: 16px;
+	margin: 20px 0px;
+	padding: 0px 50px;
+}
+
+/*Proyectos*/
+.Proyectos{
+	background-color: #5E8039;
+	color: white;
+	padding: 60px 0px;
+}
+/*niñas*/
+.niñas{
+	background-image: url(../img/fotos/img-0352.jpg);
+	height: 300px;
+}
+/*tren*/
+.tren{
+	background-image: url(../img/fotos/img-9246.jpg);
+	height: 300px;
+}
+.Proyectos h2{
+	font-size: 28px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.Proyectos h3{
+	font-size: 25px;
+	text-align: left;
+	padding: 0px 15px;
+}
+.Proyectos h4{
+	font-size: 21px;
+	text-align: left;
+	padding-left: 15px;
+	margin-top: 20px;
+}
+
+.Proyectos p{
+	font-size: 17px;
+	padding: 0px 15px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+/*Equipo*/
+.Equipo{
+	text-align: center;
+	padding: 40px 0px;
+}
+.circulos{
+	border-radius: 50%;
+	width: 50%;
+	padding: 20px 0px;
+}
+.Equipo h2{
+	font-size: 28px;
+	color: #5E8039;
+}
+.Equipo h3{
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.Equipo h4{
+	font-size: 16px;
+}
+.Equipo p{
+	font-size: 16px;
+	padding: 0px 70px;
+}
+.Equipo .redes{
+	display: inline-block;
+}
+.redes{
+	width: 7%;
+	padding: 10px;
+}
+
+/*Blog*/
+.Blog{
+	background-image: url(../img/fondo2.jpg);
+	height: 500px;
+	color: #4D4D52;
+	padding: 20px 0px;
+	align-content: center;
+	text-align: center;
+}
+.Blog h2{
+	font-size: 26px;
+	text-align: center;
+	color: black;
+	margin: 20px 0px;
+}
+.Blog h3{
+	font-size: 24px;
+	text-align:left;
+}
+.Blog h4{
+	font-size: 16px;
+	text-align: left;
+}
+.Blog p{
+	font-size: 14px;
+	text-align: left;
+}
+.slid-izq {
+	position: absolute;
+	width: 5%;
+	left: 0;
+	padding: 15% 3%;
+}
+.slid-der {
+	position: absolute;
+	width: 5%;
+	right: 0;
+	padding: 15% 3%;
+}
+.blogbarra{
+	padding: 1%;
+	width: 31%;
+}
+/*redessociales*/
+.Redessociales{
+	background-color: #4D4D4D;
+	color: white;
+	font-size: 20px;
+	padding: 50px 0px;
+}
+.iconored{
+	width: 20%;
+	text-align: right;
+}
+.Redessociales .cuadro{
+	border: 1px solid white;
+	width: 20%;
+	height: 190px;
+}
+.cuadro{
+	padding: 20px;
+	display: inline-block;
+}
+.nombre{
+	font-size: 24px;
+	text-align: left;
+}
+/*footer*/
+footer{
+	background-color: #F2F2F2;
+	font-size: 16px;
+	padding: 60px;
+	height: 40px;
+	color: #4D5964;
+	margin-top: 270px;
+}
+.textoderecha .color{
+	color: #F7CE0E;
+}
+.textoizquierda{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
